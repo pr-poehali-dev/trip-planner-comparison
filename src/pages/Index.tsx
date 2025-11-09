@@ -70,9 +70,7 @@ const Index = () => {
             </div>
           </div>
 
-          <Badge variant="outline" className="text-xs">
-            {platform === 'ios' ? 'Human Interface Guidelines' : 'Material Design'}
-          </Badge>
+
         </div>
 
         {currentScreen === 'home' && (
